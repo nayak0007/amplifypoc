@@ -1,10 +1,10 @@
 import React from 'react';
-import { APP_KEY } from "../constants";
+import { APP_KEY, APP_ENV } from "../constants";
 
 const Dashboard = () => {
   return (
     <div>
-      Test {APP_KEY}
+      VAR {APP_KEY} {APP_ENV}
     </div>
   )
 }
